@@ -11,7 +11,7 @@ class MockInsToneLibPlatform with MockPlatformInterfaceMixin implements InsToneL
   @override
   Future<void> playTone({required double frequency, required int durationMs}) async {
     // TODO: implement playTone
-    print('frequency : $frequency , durationMs : $durationMs');
+    // print('frequency : $frequency , durationMs : $durationMs');
   }
 }
 
